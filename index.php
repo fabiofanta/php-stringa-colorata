@@ -6,18 +6,21 @@
 		<title></title>
 	</head>
 	<body>
+		<div class="container">
 
-		<?php
+			<?php
 
-			$password = $_GET['pswd'];
+				$password = $_GET['pswd'];
 
-			if ($password == 'Boolean') {
-				echo '<p class="green"> Password Corretta</p>';
-			} else {
-				echo '<p class="red"> Password Errata</p>';
-			}
+				if ($password == 'Boolean') {
+					echo '<p class="green"> Password Corretta</p>';
+				} else {
+					echo '<p class="red"> Password Errata</p>';
+				}
 
-		 ?>
+			 ?>
+
+		</div>
 
 	</body>
 </html>

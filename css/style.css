@@ -4,6 +4,17 @@
     box-sizing: border-box;
   }
 
+  .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }
+
+  p {
+      font-size: 30px;
+  }
+
   .green {
 	  color: green;
   }
